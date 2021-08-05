@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-image: url(cold.jpg) ;
+            background-position: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+     .header{
+         text-align: center;
+         align-items: center;
+     }
+     .header h1{
+         font-size: 70px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-weight: bolder;
+         background: linear-gradient(120deg, rgb(255, 255, 255), rgb(120, 152, 255));
+         -webkit-background-clip: text;
+         -webkit-text-fill-color:transparent;
+         text-align: center;
+         align-items: center;
+     }
+     .flow{
+        align-items: center;
+        align-content: center;
+        width: 700px;
+        height: 300px;
+        border-radius: 10px;
+        background: url(kicks.png);
+        animation: flow 10s infinite;
+        display: inline-flex;
+     }
+  
+@keyframes flow{
+    25%{
+       background: url(kicks.png) ; 
+    }
+    50%{
+       background: url(vacay.png) ; 
+    }
+    75%{
+       background: url(phone.png) ; 
+    }
+    100%{
+       background: url(go.png) ; 
+    }
+}
+p{
+    font-size: 20px;
+    float: right;
+    color: rgb(255, 255, 255);
+ 
+}
+ a {
+  text-decoration: none;
+  padding: 14px 35px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(180deg, pink, rgb(107, 107, 255));
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: unset;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 307px;
+
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Landing Pages</h1>
+    <div class="flow">
+    </div>
+    </div>
+    <a href="index.htm">BACK</a>
+</body>
+</html>
