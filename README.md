@@ -4,4 +4,5 @@ My new Portfolio showcasing my bio and my projects done so far.
 ![por2](https://user-images.githubusercontent.com/74731447/124013987-f69eb600-d9b0-11eb-8232-6c046a406494.png)
 ![por3](https://user-images.githubusercontent.com/74731447/124013988-f7374c80-d9b0-11eb-9493-aa564daf1101.png)
 
-Demo: https://mystifying-ritchie-584b26.netlify.app/
+Official Site: https://ydisplays.com
+ 
